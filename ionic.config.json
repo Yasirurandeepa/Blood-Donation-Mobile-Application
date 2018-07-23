@@ -1,0 +1,8 @@
+{
+  "name": "blood_Donation",
+  "app_id": "5d655011",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
