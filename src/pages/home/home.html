@@ -1,4 +1,4 @@
-<ion-header>
+<ion-header xmlns="http://www.w3.org/1999/html">
   <ion-navbar>
     <ion-title>Home</ion-title>
   </ion-navbar>
@@ -6,12 +6,10 @@
 
 <ion-content padding>
   <h2>Welcome to Upakara Blood Donation Management System</h2>
-  <p>
-    This starter project comes with simple tabs-based layout for apps
-    that are going to primarily use a Tabbed UI.
-  </p>
-  <p>
-    Take a look at the <code>src/pages/</code> directory to add or change tabs,
-    update any existing page or create new pages.
-  </p>
+
+  <div id="topButtons">
+    <button ion-button icon-only (click)="signIn()" item-left><ion-icon name="log-in"></ion-icon>Sign In</button>
+    <button ion-button icon-only (click)="signUp()" item-left><ion-icon name="contact"></ion-icon>Sign Up</button>
+  </div>
+
 </ion-content>
